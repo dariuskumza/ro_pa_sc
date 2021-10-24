@@ -42,14 +42,14 @@ function letsPlay() {
         console.log(computerValue);
     }
 
+    // player = pc (rock = rock || paper = paper || scissors = scissors)
+    // if player (rock) & pc (paper) = paper wins
+    // if player (rock) & pc (scissors) = Player - rock wins
+    // if player (scissor) & pc (paper) = Player - scissors wins
+    // if player (scissor) & pc (rock) = rock wins
+    // if player (paper) & pc (scissors) = scissors wins
+    // if player (paper) & pc (rock) = Player - paper wins
     
-    // for (rounds; rounds < 6; rounds++) {
-    //     if (playerValue === computerValue) {
-    //         console.log('DRAW!');
-    //     }
-    // console.log(rounds);
-    // }
-
 }
 
 letsPlay();
