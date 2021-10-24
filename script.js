@@ -17,7 +17,6 @@ const gameSymbols = ['rock', 'paper', 'scissors'];
 
 // Player must enter 1 value of "gameSymbols" to start a game
 function playerSelection() {
-    if 
     return prompt('Please enter: rock, paper or scissors:');
 }
 
